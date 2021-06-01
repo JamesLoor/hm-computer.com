@@ -1,0 +1,98 @@
+/* Fuente Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* ============= Variables Globales */
+:root {
+  /* Colores Globales */
+  --darkBlue-color: #04091E;
+  --white-color: #fff;
+  --gray-color: rgb(34, 34, 34);
+  --black-color: #0D0D0D;
+  --lightblue-color: #00c8e6;
+}
+
+/* ============= Estilos Globales  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins';
+  font-size: 16px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--black-color);
+}
+
+*::-webkit-scrollbar {
+  width: 8px;     /* Tamaño del scroll en vertical */
+  height: 8px;    /* Tamaño del scroll en horizontal */
+}
+
+/* Ponemos un color de fondo y redondeamos las esquinas del thumb */
+*::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 4px;
+}
+
+/* Cambiamos el fondo y agregamos una sombra cuando esté en hover */
+*::-webkit-scrollbar-thumb:hover {
+  background: #b3b3b3;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+/* Cambiamos el fondo cuando esté en active */
+*::-webkit-scrollbar-thumb:active {
+  background-color: #999999;
+}
+
+a {
+  text-decoration: none;
+  color: var(--black-color);
+}
+
+li {
+  list-style: none;
+}
+
+section, main {
+  padding: 60px 0;
+}
+
+.wrapper {
+  max-width: 1440px;
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+  display: inherit;
+  flex-direction: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  grid-template-columns: inherit;
+  grid-template-rows: inherit;
+}
+
+.title-h1 {
+  font-size: 36px;
+  color: var(--white-color);
+  line-height: 40px;
+}
+
+.title-h2 {
+  font-size: 24px;
+  color: var(--white-color);
+}
+
+.title-h3 {
+  font-size: 18px;
+  color: var(--white-color);
+}
+
+.icon {
+  color: var(--white-color);
+}
+

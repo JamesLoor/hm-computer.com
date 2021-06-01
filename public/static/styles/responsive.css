@@ -1,0 +1,92 @@
+@media screen and (min-width:480px) {
+  /* ============= Hero */
+  .title-h1 {
+    width: 430px;
+    line-height: 50px;
+    font-size: 46px;
+  }
+
+  /* ============= We */
+  .title-h2 {
+    font-size: 34px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  /* ============= Hero */
+  .hero::before {
+    background-position: 250px 65%;
+  }
+
+  .title-h1 {
+    width: 550px;
+    line-height: 60px;
+    font-size: 56px;
+  }
+
+  /* ============= We */
+  .title-h2 {
+    font-size: 40px;
+  }
+
+  .we-content {
+    grid-template-columns: 1fr 1fr;
+    align-items: flex-start;
+  }
+
+  /* ============= Contact */
+  .contact-content {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  
+
+}
+
+@media screen and (min-width:1024px) {
+  /* ============= Header */
+  .header-menu-hamburguer {
+    display: none;
+  }
+
+  .header-menu {
+    position: static;
+    background-color: transparent;
+    width: auto;
+    transition: none;
+  }
+
+  .header-menu ul {
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+  }
+
+  .header-menu ul li a {
+    color: var(--white-color);
+  }
+
+  /* ============= Hero */
+  .hero::before {
+    background-position: 350px 65%;
+  }
+
+  /* ============= Service */
+  .service-list {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  /* ============= Contact */
+  .double {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+  }
+}
+
+@media screen and (min-width:1200px) {
+
+}
