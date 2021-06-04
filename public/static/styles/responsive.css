@@ -64,11 +64,7 @@
     align-items: center;
     margin-bottom: 0;
   }
-
-  .header-menu ul li a {
-    color: var(--white-color);
-  }
-
+  
   /* ============= Hero */
   .hero::before {
     background-position: 350px 65%;

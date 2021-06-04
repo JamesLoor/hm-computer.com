@@ -4,11 +4,11 @@
 /* ============= Variables Globales */
 :root {
   /* Colores Globales */
-  --darkBlue-color: #04091E;
   --white-color: #fff;
   --gray-color: rgb(34, 34, 34);
+  --grayLight-color: rgb(226 226 226);
   --black-color: #0D0D0D;
-  --lightblue-color: #00c8e6;
+  --buton-background: #70BFE6;
 }
 
 /* ============= Estilos Globales  */
@@ -22,10 +22,6 @@
 
 html {
   scroll-behavior: smooth;
-}
-
-body {
-  background-color: var(--black-color);
 }
 
 *::-webkit-scrollbar {
@@ -52,7 +48,7 @@ body {
 
 a {
   text-decoration: none;
-  color: var(--black-color);
+  color: var(--gray-color);
 }
 
 li {
@@ -78,21 +74,21 @@ section, main {
 
 .title-h1 {
   font-size: 36px;
-  color: var(--white-color);
+  color: var(--gray-color);
   line-height: 40px;
 }
 
 .title-h2 {
   font-size: 24px;
-  color: var(--white-color);
+  color: var(--gray-color);
 }
 
 .title-h3 {
   font-size: 18px;
-  color: var(--white-color);
+  color: var(--gray-color);
 }
 
 .icon {
-  color: var(--white-color);
+  color: var(--gray-color);
 }
 
