@@ -6,21 +6,21 @@
   justify-content: space-between;
   align-items: center;
   box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 20%);
-  background-color: var(--white-color);
+  background-color: var(--background-color);
   z-index: 1000;
 }
 
 .header-logo p{
   font-size: 30px;
   font-weight: bold;
-  color: var(--gray-color);
+  color: var(--paragraph-color);
 }
 
 .header-menu-hamburguer i {
   font-weight: 550;
   font-size: 20px;
   cursor: pointer;
-  color: var(--gray-color);
+  color: var(--icon-header-color);
 }
 
 .header-menu {
@@ -33,7 +33,7 @@
   left: -100%;
   top: 46px;
   bottom: 0;
-  background-color: var(--white-color);
+  background-color: var(--background-color);
   transition: cubic-bezier(0.1, 0.73, 0.71, 0.96) .5s;
 }
 
@@ -45,7 +45,7 @@
 }
 
 .header-menu ul li a {
-  color: var(--gray-color);
+  color: var(--paragraph-color);
 }
 
 .menu-mobile-active {
@@ -58,7 +58,8 @@
   border-radius: 20px;
   outline: none;
   border: none;
-  background-color: var(--grayLight-color);
+  background-color: var(--button-color);
+  color: var(--buton-text-color);
   font-weight: bold;
 }
 
@@ -69,7 +70,7 @@
   align-items: center;
   padding-top: 46px;
   height: 100vh;
-  background-color: var(--white-color);
+  background-color: var(--background-color);
   opacity: 1;
 }
 
@@ -101,7 +102,8 @@
   border-radius: 20px;
   outline: none;
   border: none;
-  background-color: var(--grayLight-color);
+  background-color: var(--button-color);
+  color: var(--buton-text-color);
   font-weight: bold;
 }
 
@@ -121,7 +123,7 @@
 }
 
 .we-paragraph {
-  color: var(--gray-color);
+  color: var(--paragraph-color);
 }
 
 .we-content-right {
@@ -139,25 +141,25 @@
 }
 
 .we-button {
-  color: var(--gray-color);
   border: none;
   outline: none;
-  background: var(--grayLight-color);
+  background: var(--button-accordion-color);
   padding: 8px 20px;
   border-radius: 20px;
   cursor: pointer;
   font-weight: 500;
   transition: .5s;
+  color: var(--buton-text-color);
 }
 
 .we-value-description {
-  background-color: var(--gray-color);
+  background-color: var(--box-background-color);
   border-radius: 20px;
   padding: 12px;
 }
 
 .we-value-description p{
-  color: var(--white-color);
+  color: var(--box-paragraph-color);
   transition: .5s;
 }
 
@@ -168,8 +170,7 @@
 }
 
 .focus {
-  background-color: var(--gray-color);
-  color: var(--white-color);
+  background-color: var(--button-accordion-active-color);
 }
 
 .active {
@@ -189,7 +190,7 @@
   align-items: flex-start;
   grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
   grid-gap: 40px;
-  padding: 30px 0;
+  padding: 50px 0;
 }
 
 .service {
@@ -201,7 +202,7 @@
 }
 
 .service-icon {
-  background: var(--gray-color);
+  background: var(--icon-background-color);
   width: 50px;
   height: 50px;
   border-radius: 50%;
@@ -213,18 +214,19 @@
 }
 
 .service-icon i {
-  color: var(--white-color);
+  color: var(--icon-color);
   font-size: 25px;
 }
 
 .service-description {
   text-align: center;
+  color: var(--paragraph-color)
 }
 
 /* ============= Promo */
 
 .promo {
-  background-color: var(--black-color);
+  background-color: var(--background-black-color);
   position: relative;
 }
 
@@ -239,7 +241,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(../images/PromoBackground.jpg);
+  /* background-image: url(../images/PromoBackground.jpg); */
 }
 
 .promo-content {
@@ -249,11 +251,11 @@
 }
 
 .promo-content .title-h2 {
-  color: var(--white-color);
+  color: #fff;
 }
 
 .promo-description {
-  color: var(--white-color);
+  color: var(--paragraph-with-background);
 }
 
 .promo-button {
@@ -262,7 +264,8 @@
   border-radius: 20px;
   outline: none;
   border: none;
-  background-color: var(--white-color);
+  background-color: var(--button-with-background);
+  color: var(button-with-background-text);
   font-weight: bold;
 }
 
@@ -292,7 +295,8 @@
 }
 
 .contact-input, .contact-textarea {
-  background: var(--grayLight-color);
+  background: var(--input-background-color);
+  color: var(--input-color-text);
   box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 2%);
   padding: 8px 20px;
   border-radius: 20px;
@@ -337,7 +341,8 @@
 /* ============= Footer */
 
 .footer {
-  background-color: var(--gray-color);
+  background-color: var(--background-color);
+  box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 20%);
   padding: 20px 0;
 }
 
@@ -345,17 +350,17 @@
 .footer a {
   text-align: center;
   font-size: 12px;
-  color: var(--white-color);
+  color: var(--paragraph-color);
 }
 
 /* ============= Privacy Policy */
 
 .privacy-policy {
-  color: var(--gray-color);
+  color: var(--paragraph-color);
 }
 
 .privacy-policy a{
-  color: var(--gray-color);
+  color: var(--paragraph-color);
 }
 
 .privacy-policy h1,
@@ -366,7 +371,7 @@
 
 .privacy-policy p {
   padding: 10px 0;
-  color: var(--gray-color);
+  color: var(--paragraph-color);
 }
 
 .privacy-policy ul {
@@ -380,5 +385,5 @@
 
 .privacy-policy p strong{
   padding: 10px 0;
-  color: var(--gray-color);
+  color: var(--paragraph-color);
 }

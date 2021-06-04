@@ -4,11 +4,28 @@
 /* ============= Variables Globales */
 :root {
   /* Colores Globales */
-  --white-color: #fff;
-  --gray-color: rgb(34, 34, 34);
-  --grayLight-color: rgb(226 226 226);
-  --black-color: #0D0D0D;
-  --buton-background: #70BFE6;
+  --background-color: #000;
+  --background-black-color: #000000;
+
+  --title-color: #fff;
+  --paragraph-color: #fff;
+  --paragraph-with-background: #fff;
+
+  --icon-background-color: #fff;
+  --icon-color: #000;
+  --icon-header-color: #fff;
+
+  --box-background-color: #fff;
+  --box-paragraph-color: #000;
+
+  --button-color: #fff;
+  --buton-text-color: #000;
+
+  --button-with-background: #fff;
+  --button-with-background-text: #000;
+
+  --button-accordion-color: rgb(190, 190, 190);
+  --button-accordion-active-color: #fff;
 }
 
 /* ============= Estilos Globales  */
@@ -22,6 +39,10 @@
 
 html {
   scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--background-color);
 }
 
 *::-webkit-scrollbar {
@@ -74,21 +95,21 @@ section, main {
 
 .title-h1 {
   font-size: 36px;
-  color: var(--gray-color);
+  color: var(--title-color);
   line-height: 40px;
 }
 
 .title-h2 {
   font-size: 24px;
-  color: var(--gray-color);
+  color: var(--title-color);
 }
 
 .title-h3 {
   font-size: 18px;
-  color: var(--gray-color);
+  color: var(--title-color);
 }
 
 .icon {
-  color: var(--gray-color);
+  color: var(--colorIcon-color);
 }
 
