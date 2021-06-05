@@ -38,7 +38,7 @@
   width: 100%;
   right: 0;
   left: -100%;
-  top: 46px;
+  top: 56px;
   bottom: 0;
   background-color: var(--background-color);
   transition: cubic-bezier(0.1, 0.73, 0.71, 0.96) .5s;
@@ -75,7 +75,7 @@
 .hero {
   display: flex;
   align-items: center;
-  padding-top: 46px;
+  padding-top: 56px;
   height: 100vh;
   background-color: var(--background-color);
   opacity: 1;
@@ -248,6 +248,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: var(--second-background-color);
   /* background-image: url(../images/PromoBackground.jpg); */
 }
 

@@ -5,6 +5,7 @@
 :root {
   /* Colores Globales */
   --background-color: #000;
+  --second-background-color: rgb(40, 40, 40);
   --background-black-color: #000000;
 
   --title-color: #fff;
@@ -23,6 +24,9 @@
 
   --button-with-background: #fff;
   --button-with-background-text: #000;
+
+  --input-background-color: #fff;
+  /* --input-text-color: ; */
 
   --button-accordion-color: rgb(190, 190, 190);
   --button-accordion-active-color: #fff;

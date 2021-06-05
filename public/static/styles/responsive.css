@@ -30,7 +30,7 @@
   }
 
   .we-content {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
     align-items: flex-start;
   }
 
@@ -38,9 +38,6 @@
   .contact-content {
     grid-template-columns: 1fr 1fr;
   }
-
-  
-
 }
 
 @media screen and (min-width:1024px) {
@@ -64,7 +61,7 @@
     align-items: center;
     margin-bottom: 0;
   }
-  
+
   /* ============= Hero */
   .hero::before {
     background-position: 350px 65%;
