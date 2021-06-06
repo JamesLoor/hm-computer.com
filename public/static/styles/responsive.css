@@ -30,8 +30,9 @@
   }
 
   .we-content {
-    grid-template-columns: 2fr 1fr;
-    align-items: flex-start;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
   }
 
   /* ============= Contact */
@@ -61,7 +62,11 @@
     align-items: center;
     margin-bottom: 0;
   }
-
+  
+  /* ============= We */
+  .we-content {
+    grid-template-columns: 1fr auto;
+  }
   /* ============= Hero */
   .hero::before {
     background-position: 350px 65%;

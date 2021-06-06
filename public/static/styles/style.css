@@ -38,7 +38,7 @@
   width: 100%;
   right: 0;
   left: -100%;
-  top: 56px;
+  top: 50px;
   bottom: 0;
   background-color: var(--background-color);
   transition: cubic-bezier(0.1, 0.73, 0.71, 0.96) .5s;
@@ -53,6 +53,7 @@
 
 .header-menu ul li a {
   color: var(--paragraph-color);
+  font-weight: 500;
 }
 
 .menu-mobile-active {
@@ -68,6 +69,7 @@
   background-color: var(--button-color);
   color: var(--buton-text-color);
   font-weight: bold;
+  box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 12%);
 }
 
 /* ============= Hero */
@@ -88,7 +90,7 @@
   bottom: 0;
   left: 0;
   right: 0;
-  opacity: 0.6;
+  /* opacity: 0.6; */
   background-repeat: no-repeat;
   background-position: 150px 60%;
   background-size: 100%;
@@ -112,6 +114,7 @@
   background-color: var(--button-color);
   color: var(--buton-text-color);
   font-weight: bold;
+  box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 12%);
 }
 
 /* ============= We */
@@ -124,6 +127,12 @@
   align-items: center;
 }
 
+.we-content-right img {
+  width: 100%;
+  height: 100%;
+  /* opacity: .6; */
+}
+
 .we-content-left {
   display: grid;
   grid-gap: 20px;
@@ -131,10 +140,6 @@
 
 .we-paragraph {
   color: var(--paragraph-color);
-}
-
-.we-content-right {
-  /* border: 1px solid var(--white-color); */
 }
 
 .we-controllers {
@@ -156,13 +161,15 @@
   cursor: pointer;
   font-weight: 500;
   transition: .5s;
-  color: var(--buton-text-color);
+  color: var(--button-accordion-text-color);
+  box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 12%);
 }
 
 .we-value-description {
   background-color: var(--box-background-color);
   border-radius: 20px;
   padding: 12px;
+  box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 12%);
 }
 
 .we-value-description p{
@@ -178,6 +185,7 @@
 
 .focus {
   background-color: var(--button-accordion-active-color);
+  color: var(--button-accordion-text-active-color);
 }
 
 .active {
@@ -218,6 +226,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 12%);
 }
 
 .service-icon i {
@@ -233,7 +242,7 @@
 /* ============= Promo */
 
 .promo {
-  background-color: var(--background-black-color);
+  background-color: var(--background-color);
   position: relative;
 }
 
@@ -244,12 +253,12 @@
   bottom: 0;
   left: 0;
   right: 0;
-  opacity: 0.5;
-  background-position: center;
+  background-position: right;
   background-repeat: no-repeat;
-  background-size: cover;
-  background-color: var(--second-background-color);
-  /* background-image: url(../images/PromoBackground.jpg); */
+  background-size: 60%;
+  background-color: var(--background-color);
+  background-image: url(../images/PromoBackground.svg);
+  /* background-attachment: fixed; */
 }
 
 .promo-content {
@@ -258,12 +267,12 @@
   position: relative;
 }
 
-.promo-content .title-h2 {
+/* .promo-content .title-h2 {
   color: #fff;
-}
+} */
 
 .promo-description {
-  color: var(--paragraph-with-background);
+  color: var(--paragraph-color);
 }
 
 .promo-button {
@@ -272,9 +281,10 @@
   border-radius: 20px;
   outline: none;
   border: none;
-  background-color: var(--button-with-background);
-  color: var(button-with-background-text);
+  background-color: var(--button-color);
+  color: var(--buton-text-color);
   font-weight: bold;
+  box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 12%);
 }
 
 /* ============= Contact */
@@ -302,10 +312,15 @@
   grid-gap: 10px;
 }
 
+.contact-input::placeholder,
+.contact-textarea::placeholder {
+  color: var(--input-text-color);
+}
+
 .contact-input, .contact-textarea {
   background: var(--input-background-color);
-  color: var(--input-color-text);
-  box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 2%);
+  color: var(--input-text-color);
+  box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 8%);
   padding: 8px 20px;
   border-radius: 20px;
   border: none;
@@ -317,6 +332,8 @@
 .contact-submit {
   width: 200px;
   cursor: pointer;
+  background-color: var(--input-background-submit-color);
+  color: var(--input-text-submit-color)
 }
 
 .contact-textarea {
@@ -365,6 +382,7 @@
 
 .privacy-policy {
   color: var(--paragraph-color);
+  padding-top: 100px;
 }
 
 .privacy-policy a{
