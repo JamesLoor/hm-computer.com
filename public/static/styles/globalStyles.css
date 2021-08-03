@@ -4,7 +4,7 @@
 /* ============= Variables Globales */
 :root {
   /* Colores Globales */
-  --background-color: #DDFDFF;
+  --background-color: #ffffff;
   --second-background-color: rgb(40, 40, 40);
   --background-black-color: #000000;
 
@@ -25,8 +25,8 @@
   --button-with-background: #fff;
   --button-with-background-text: #000;
 
-  --input-background-color: #fff;
-  --input-text-color: #000;
+  --input-background-color: #247DCD;
+  --input-text-color: #fff;
 
   --input-background-submit-color: #247DCD;
   --input-text-submit-color: #fff;

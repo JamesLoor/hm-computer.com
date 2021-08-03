@@ -53,7 +53,8 @@
 
 .header-menu ul li a {
   color: var(--paragraph-color);
-  font-weight: 500;
+  font-size: 19px;
+  font-weight: 600;
 }
 
 .menu-mobile-active {
