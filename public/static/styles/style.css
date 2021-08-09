@@ -379,6 +379,10 @@
   color: var(--paragraph-color);
 }
 
+.profile-github:hover {
+  color: #247DCD;
+}
+
 /* ============= Privacy Policy */
 
 .privacy-policy {
