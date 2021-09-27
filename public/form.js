@@ -16,7 +16,7 @@ async function handleSubmit(event) {
 
   if(response.ok) {
     this.reset()
-    alert('¡Gracias por contactarnos!, En breve nos comunicaremos para responder tu consulta.')
+    alert('¡Gracias por contactarnos!, En breve nos comunicaremos para responder su consulta.')
   } else {
     this.reset()
     alert('¡Hubo un problema al enviar el formulario!')
