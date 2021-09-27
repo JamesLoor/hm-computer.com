@@ -100,6 +100,7 @@ section, main {
   align-items: inherit;
   grid-template-columns: inherit;
   grid-template-rows: inherit;
+  grid-gap: inherit;
 }
 
 .title-h1 {

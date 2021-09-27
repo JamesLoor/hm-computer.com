@@ -369,18 +369,35 @@
 .footer {
   background-color: var(--background-color);
   box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 20%);
-  padding: 20px 0;
+  padding: 16px 0;
+  display: grid;
+  grid-gap: 5px;
 }
 
-.footer p,
-.footer a {
-  text-align: center;
+.footer-text {
+  display: grid;
+}
+
+.footer-rights {
   font-size: 12px;
-  color: var(--paragraph-color);
+  text-align: center;
 }
 
-.profile-github:hover {
-  color: #247DCD;
+.footer-links {
+  font-size: 12px;
+  text-align: center;
+}
+
+.footer-icon-list {
+  display: grid;
+  grid-template-columns: min-content min-content;
+  justify-content: center;
+  align-items: center;
+  grid-gap: 10px;
+}
+
+.footer-icon i {
+  font-size: 20px;
 }
 
 /* ============= Privacy Policy */
