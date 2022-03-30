@@ -4,37 +4,12 @@
 /* ============= Variables Globales */
 :root {
   /* Colores Globales */
-  --background-color: #ffffff;
-  --second-background-color: rgb(40, 40, 40);
-  --background-black-color: #000000;
-
-  --title-color: #000;
-  --paragraph-color: #000;
-  --paragraph-with-background: #fff;
-
-  --icon-background-color: #247DCD;
-  --icon-color: #fff;
-  --icon-header-color: #000;
-
-  --box-background-color: #247DCD;
-  --box-paragraph-color: #fff;
-
-  --button-color: #247DCD;
-  --buton-text-color: #fff;
-
-  --button-with-background: #fff;
-  --button-with-background-text: #000;
-
-  --input-background-color: #247DCD;
-  --input-text-color: #fff;
-
-  --input-background-submit-color: #247DCD;
-  --input-text-submit-color: #fff;
-
-  --button-accordion-color: #fff;
-  --button-accordion-text-color: #000;
-  --button-accordion-active-color: #247DCD;
-  --button-accordion-text-active-color: #fff;
+  --white-color: #ffffff;
+  --black-color: #000000;
+  --gray-color: #707070;
+  --accent-color: #D8623C;
+  --primary-color: #002F65;
+  --secundary-color: #051A50;
 }
 
 /* ============= Estilos Globales  */
