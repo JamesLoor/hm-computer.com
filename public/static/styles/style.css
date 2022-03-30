@@ -88,13 +88,13 @@
 /* ============= Hero */
 
 .hero {
-  background-image:linear-gradient(to right, #00000050 , #00000050), url(../images/banner.png);
+  background-image:linear-gradient(to right, #00000075 , #00000075), url(../images/banner.png);
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
   align-items: center;
-  padding-top: 56px;
+  padding-top: 74px;
   height: 100vh;
   background-color: var(--background-color);
   opacity: 1;
@@ -104,7 +104,12 @@
   display: grid;
   justify-content: center;
   align-items: center;
-  grid-gap: 10px;
+  grid-gap: 20px;
+}
+
+.hero-content p {
+  color: var(--white-color);
+  line-height: 20px;
 }
 
 .hero-button {
@@ -113,8 +118,8 @@
   outline: none;
   border: none;
   background-color: var(--accent-color);
-  color: var(--buton-text-color);
-  font-weight: bold;
+  color: var(--white-color);
+  font-weight: 500;
 }
 
 /* ============= We */

@@ -80,18 +80,18 @@ section, main {
 
 .title-h1 {
   font-size: 36px;
-  color: var(--title-color);
+  color: var(--white-color);
   line-height: 40px;
 }
 
 .title-h2 {
   font-size: 24px;
-  color: var(--title-color);
+  color: var(--primary-color);
 }
 
 .title-h3 {
   font-size: 18px;
-  color: var(--title-color);
+  color: var(--primary-color);
 }
 
 .icon {

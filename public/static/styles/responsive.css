@@ -35,7 +35,7 @@
   }
 
   .header-menu ul {
-    justify-content: initial;
+    justify-content: center;
   }
 
   .header-menu ul li a {
@@ -48,9 +48,21 @@
   }
 
   /* ============= Hero */
-  .hero::before {
-    background-position: 250px 65%;
+  .hero {
+    padding-top: 139px;
   }
+
+  .hero-content {
+    gap: 35px;
+  }
+
+  .hero-content p {
+    width: 520px;
+  }
+
+  /* .hero::before {
+    background-position: 250px 65%;
+  } */
 
   .title-h1 {
     width: 550px;
