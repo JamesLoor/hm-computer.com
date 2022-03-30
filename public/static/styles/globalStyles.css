@@ -86,7 +86,6 @@ section, main {
 
 .title-h2 {
   font-size: 24px;
-  color: var(--primary-color);
 }
 
 .title-h3 {
@@ -96,5 +95,15 @@ section, main {
 
 .icon {
   color: var(--colorIcon-color);
+}
+
+.button-default {
+  width: fit-content;
+  padding: 8px 20px;
+  outline: none;
+  border: none;
+  background-color: var(--accent-color);
+  color: var(--white-color);
+  font-weight: 500;
 }
 
