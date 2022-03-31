@@ -213,11 +213,11 @@
   bottom: 0;
   left: 0;
   right: 0;
-  background-position: right;
+  background-position: bottom;
   background-repeat: no-repeat;
-  background-size: 60%;
+  background-size: cover;
   background-color: var(--background-color);
-  background-image: url(../images/PromoBackground.svg);
+  background-image:linear-gradient(to right, #00000075 , #00000075), url(../images/PromoBackground.png);
 }
 
 .promo-content {
@@ -226,8 +226,12 @@
   position: relative;
 }
 
+.promo-content .title-h2 {
+  color: var(--white-color);
+}
+
 .promo-description {
-  color: var(--paragraph-color);
+  color: var(--white-color);
 }
 
 .promo-button {
