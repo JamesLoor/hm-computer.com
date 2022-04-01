@@ -42,6 +42,12 @@
   .header-menu ul li a {
     height: 65px;
     padding: 0 15px;
+    grid-template-columns: 30px min-content;
+  }
+
+  .header-menu ul li a figure {
+    width: 30px;
+    height: 30px;
   }
 
   .header-menu ul li a span {
@@ -92,14 +98,6 @@
 }
 
 @media screen and (min-width:1024px) {
-  /* ============= header */
-  .header-menu ul {
-    padding: 0 80px;
-  }
-
-  .header-menu ul li a {
-    padding: 0 20px;
-  }
   /* ============= About */
   .about-container {
     gap: 110px;
