@@ -10,6 +10,11 @@
   .title-h2 {
     font-size: 34px;
   }
+
+  /* ============= Footer */
+  .footer-container {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 @media screen and (min-width:768px) {
@@ -88,6 +93,26 @@
   .contact-content {
     grid-template-columns: 1fr 1fr;
   }
+
+  /* ============= Footer */
+  .footer {
+    margin-bottom: 0;
+  }
+
+  .footer-container {
+    text-align: initial;
+    grid-template-columns: 2fr repeat(3, 1fr);
+  }
+
+  .footer-hr-container {
+    margin: 0 0 10px;
+  }
+
+  .footer-rights-container {
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+  }
 }
 
 @media screen and (min-width:1024px) {
@@ -118,6 +143,11 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
+  }
+
+  /* ============= Contact */
+  .footer-container {
+    gap: 75px;
   }
 }
 

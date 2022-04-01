@@ -375,44 +375,59 @@
 }
 
 /* ============= Footer */
-
 .footer {
-  
+  margin-bottom: 50px;
+  background-color: var(--primary-color);
 }
 
-.footer-down {
-  background-color: var(--background-color);
-  box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 20%);
-  padding: 16px 0;
+.footer-container {
   display: grid;
-  justify-content: center;
-  grid-gap: 5px;
+  grid-template-columns: 1fr;
+  gap: 25px;
+  padding: 60px 0;
+  text-align: center;
 }
 
-.footer-text {
-  display: grid;
+.footer-content p, a, .footer-rights span {
+  color: var(--white-color);
+}
+
+.footer-content h4 {
+  margin-left: 25px;
+  margin-bottom: -20px;
+}
+
+.footer-hr-container {
+  width: 150px;
+  margin: 0 auto 10px;
+}
+
+.footer-hr-container img {
+  width: 100%;
+}
+
+.footer-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .footer-rights {
-  font-size: 12px;
+  background-color: var(--secundary-color);
+  padding: 20px 0;
   text-align: center;
 }
 
-.footer-links {
-  font-size: 12px;
-  text-align: center;
-}
-
-.footer-icon-list {
+.footer-rights-container {
   display: grid;
-  grid-template-columns: min-content min-content;
+  gap: 20px;
+}
+
+.footer-social-media {
+  display: flex;
+  gap: 10px;
   justify-content: center;
   align-items: center;
-  grid-gap: 10px;
-}
-
-.footer-icon i {
-  font-size: 20px;
 }
 
 /* ============= Privacy Policy */

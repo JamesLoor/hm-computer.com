@@ -94,6 +94,11 @@ section, main {
   color: var(--primary-color);
 }
 
+.title-h4 {
+  font-size: 25px;
+  color: var(--white-color);
+}
+
 .icon {
   color: var(--colorIcon-color);
 }
