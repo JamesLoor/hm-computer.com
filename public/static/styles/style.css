@@ -452,7 +452,8 @@
 /* ============= Privacy Policy */
 .back-button-container {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
+  padding: 5px 0;
 }
 
 .back-button {
@@ -464,37 +465,37 @@
   box-shadow: 0px 0px 9px 0px rgb(0 0 0 / 35%);
 }
 
-.privacy-policy {
-  color: var(--paragraph-color);
-  padding-top: 100px;
-}
-
-.privacy-policy a{
+.privacy-policy, .terms {
+  padding-top: 150px;
   color: var(--paragraph-color);
 }
 
-.privacy-policy h1,
-.privacy-policy h2,
-.privacy-policy h3 {
+.privacy-policy a, .terms a{
+  color: var(--paragraph-color);
+}
+
+.privacy-policy h1, .terms h1,
+.privacy-policy h2, .terms h2,
+.privacy-policy h3, .terms h3 {
   margin-bottom: 10px;
   color: var(--primary-color);
 }
 
-.privacy-policy p {
+.privacy-policy p, .terms p {
   padding: 10px 0;
   color: var(--paragraph-color);
 }
 
-.privacy-policy ul {
+.privacy-policy ul, .terms ul {
   margin-left: 60px;
   padding: 20px 0;
 }
 
-.privacy-policy li {
+.privacy-policy li, .terms li {
   list-style: disc;
 }
 
-.privacy-policy p strong{
+.privacy-policy p strong, .terms p strong{
   padding: 10px 0;
   color: var(--paragraph-color);
 }

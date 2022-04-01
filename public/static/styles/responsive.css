@@ -15,12 +15,24 @@
   .footer-container {
     grid-template-columns: 1fr 1fr;
   }
+
+  /* ============= Privacy Policy */
+  .privacy-policy .title-h1,
+  .terms .title-h1 {
+    width: 100%;
+  }
 }
 
 @media screen and (min-width:768px) {
   /* ============= Header */
   .header-logo-container {
     box-shadow: none;
+  }
+
+  .back-button-container {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
   }
 
   .header-logo-container p, .header-social-media{
@@ -118,6 +130,11 @@
     display: flex;
     grid-template-columns: 1fr 1fr;
     justify-content: space-between;
+  }
+
+  .privacy-policy, .terms {
+    padding-top: 120px;
+    color: var(--paragraph-color);
   }
 }
 
