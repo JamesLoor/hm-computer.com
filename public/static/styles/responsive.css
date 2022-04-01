@@ -89,13 +89,6 @@
     grid-template-columns: .3fr 1fr;
   }
 
-  .contact-form {
-    grid-template-areas:
-        "Name Phone"
-        "Mail Mail"
-        "Message Message"
-        "Button .";
-  }
 }
 
 @media screen and (min-width:1024px) {
@@ -126,6 +119,14 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
+  }
+
+  .contact-form {
+    grid-template-areas:
+        "Name Phone"
+        "Mail Mail"
+        "Message Message"
+        "Button Button";
   }
 }
 

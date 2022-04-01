@@ -342,6 +342,8 @@
   text-align: center;
   color: var(--white-color);
   font-weight: 600;
+  text-overflow: ellipsis;
+
 }
 
 /* ============= Testimonials */
