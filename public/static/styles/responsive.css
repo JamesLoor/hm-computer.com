@@ -78,15 +78,23 @@
     margin-bottom: 10px;
     font-size: 22px;
   }
-  
-  /* ============= About */
+
+  /* ============= Promo */
   .promo-description {
     margin-bottom: 10px;
   }
 
   /* ============= Contact */
   .contact-content {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: .3fr 1fr;
+  }
+
+  .contact-form {
+    grid-template-areas:
+        "Name Phone"
+        "Mail Mail"
+        "Message Message"
+        "Button .";
   }
 }
 

@@ -262,8 +262,19 @@
 
 .contact-form {
   display: grid;
-  grid-gap: 10px;
+  grid-template-areas:
+    "Name"
+    "Phone"
+    "Mail"
+    "Message"
+    "Button";
+  gap: 20px;
 }
+
+.contact-form input[name="Name"] { grid-area: Name; }
+.contact-form input[name="Phone"] { grid-area: Phone; }
+.contact-form input[name="Mail"] { grid-area: Mail; }
+.contact-form textarea[name="Message"] { grid-area: Message; }
 
 .double {
   display: grid;
@@ -273,53 +284,64 @@
 
 .contact-input::placeholder,
 .contact-textarea::placeholder {
-  color: var(--input-text-color);
+  color: #979797;
 }
 
 .contact-input, .contact-textarea {
   background: var(--input-background-color);
-  color: var(--input-text-color);
   box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 8%);
-  padding: 8px 20px;
-  border-radius: 20px;
-  border: none;
+  padding: 14px 22px;
   outline: none;
-  font-weight: bold;
   resize: none;
+  border: 1px solid #979797;
+  color: var(--black-color);
 }
 
 .contact-submit {
   width: 200px;
   cursor: pointer;
-  background-color: var(--input-background-submit-color);
-  color: var(--input-text-submit-color)
+  grid-area: Button;
 }
 
 .contact-textarea {
-  height: 100px;
+  height: 190px;
 }
 
 .contact-information {
-  display: grid;
-  grid-auto-flow: row;
-  grid-gap: 30px;
-}
-
-.information {
+  min-height: 400px;
   display: flex;
   flex-direction: column;
+  justify-content: flex-end;
+  background-image: linear-gradient(180deg, rgba(0, 47, 101, 0.23) 0%, #002F65 100%), url(../images/ContactInfo.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px;
+  gap: 10px;
+}
+
+.contact-icon {
+  display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.information h3{
-  text-align: center;
+.contact-icon i {
+  font-size: 30px;
+  color: var(--accent-color);
 }
 
-.icon-contact {
-  font-size: 35px;
-  margin-right: 10px;
-  margin-bottom: 10px;
+.information {
+  display: grid;
+  grid-template-columns: 30px max-content;
+  align-items: center;
+  gap: 10px;
+}
+
+.information h3{
+  text-align: center;
+  color: var(--white-color);
+  font-weight: 600;
 }
 
 /* ============= Testimonials */
