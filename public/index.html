@@ -179,37 +179,48 @@
   <section id="idContact" class="contact">
     <div class="wrapper">
       <h2 class="title-h2">Contáctanos</h2>
+
       <div class="contact-content">
         <div class="contact-content-left">
-          <form id="contact-form-id" action="https://formspree.io/f/xyylwnyp" method="POST" class="contact-form">
-              <input class="contact-input" type="text" name="Name" placeholder="Nombres" required>
-              <input class="contact-input" type="tel" name="Phone" placeholder="Teléfono" required>
-              <textarea class="contact-textarea" name="Message" placeholder="Mensaje" required ></textarea>
-              <input class="contact-input contact-submit" type="submit" name="subject" value="Enviar">
-          </form>
-        </div>
 
-        <div class="contact-content-right">
           <div class="contact-information">
             <div class="information">
-              <span class="service-icon"><i class="fas fa-map-marker-alt"></i></span>
+              <figure class="contact-icon"><img src="./static/iconos/clock.svg" alt="Icon Clock"></figure>
+              <h3 class="title-h3">8:00 - 17:00</h3>
+            </div>
+
+            <div class="information">
+              <figure class="contact-icon"><img src="./static/iconos/location.svg" alt="Icon Location"></figure>
               <a href="https://www.google.com.ec/maps/dir//-2.14846,-79.9088775/@-2.1483581,-79.9089821,19z" target="_blank" rel="noopener noreferrer">
                 <h3 class="title-h3">Urdenor 2 Mz-225 Sl-13</h3>
               </a>
             </div>
 
             <div class="information">
-              <span class="service-icon"><i class="fas fa-envelope"></i></span>
-              <h3 class="title-h3">hm-computer@hotmail.com</h3>
+              <figuren class="contact-icon"><img src="./static/iconos/mail.svg" alt="Icon Mail"></figuren>
+              <a href="mailto:hm-computer@hotmail.com" target="_blank" rel="noopener noreferrer">
+                <h3 class="title-h3">hm-computer</h3>
+              </a>
             </div>
 
             <div class="information">
-              <span class="service-icon"><i class="fas fa-phone-alt"></i></span>
+              <figure class="contact-icon"><img src="./static/iconos/phone.svg" alt="Icon Phone"></figure>
               <a href="https://wa.me/593991820323" target="_blank" rel="noopener noreferrer">
                 <h3 class="title-h3">+593 99 182 0323</h3>
               </a>
             </div>
           </div>
+
+        </div>
+
+        <div class="contact-content-right">
+          <form id="contact-form-id" action="https://formspree.io/f/xyylwnyp" method="POST" class="contact-form">
+            <input class="contact-input" type="text" name="Name" placeholder="Nombres" required>
+            <input class="contact-input" type="tel" name="Phone" placeholder="Teléfono" required>
+            <input class="contact-input" type="mail" name="Mail" placeholder="Correo Electrónico" required>
+            <textarea class="contact-textarea" name="Message" placeholder="Mensaje" required ></textarea>
+            <input class="contact-submit button-default" type="submit" name="subject" value="Enviar">
+          </form>
         </div>
       </div>
     </div>
