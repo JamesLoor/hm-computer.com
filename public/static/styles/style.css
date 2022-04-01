@@ -73,7 +73,7 @@
   height: 100%;
 }
 
-.link-phone {
+/* .link-phone {
   width: fit-content;
   padding: 5px 20px;
   border-radius: 20px;
@@ -83,7 +83,7 @@
   color: var(--buton-text-color);
   font-weight: bold;
   box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 12%);
-}
+} */
 
 /* ============= Hero */
 
@@ -177,7 +177,7 @@
 }
 
 .service-icon {
-  background: var(--icon-background-color);
+  background: var(--accent-color);
   width: 50px;
   height: 50px;
   border-radius: 50%;
@@ -190,13 +190,13 @@
 }
 
 .service-icon i {
-  color: var(--icon-color);
+  color: var(--white-color);
   font-size: 25px;
 }
 
 .service-description {
   text-align: center;
-  color: var(--paragraph-color)
+  color: var(--gray-color)
 }
 
 /* ============= Promo */
@@ -320,6 +320,58 @@
   font-size: 35px;
   margin-right: 10px;
   margin-bottom: 10px;
+}
+
+/* ============= Testimonials */
+.testimonials-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: 30px;
+  justify-content: center;
+}
+
+.testimonials h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.testimony-icon {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimony-text {
+  color: var(--gray-color);
+  text-align: center;
+  margin: 25px 0;
+}
+
+.testimony-photo {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.testimony-photo img{
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.testimony-name {
+  text-align: center;
+  font-size: 22px;
+  margin: 15px 0 0;
+}
+
+.testimony-rank {
+  text-align: center;
+  color: var(--gray-color);
+  font-weight: 500;
 }
 
 /* ============= Footer */

@@ -32,6 +32,7 @@
 
   .header-menu {
     position: initial;
+    box-shadow: 0px 7px 20px 0px #051a50a3;
   }
 
   .header-menu ul {
@@ -77,6 +78,12 @@
     margin-bottom: 10px;
     font-size: 22px;
   }
+  
+  /* ============= About */
+  .promo-description {
+    margin-bottom: 10px;
+  }
+
   /* ============= Contact */
   .contact-content {
     grid-template-columns: 1fr 1fr;
