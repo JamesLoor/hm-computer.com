@@ -30,25 +30,24 @@ body {
 }
 
 *::-webkit-scrollbar {
-  width: 8px;     /* Tamaño del scroll en vertical */
-  height: 8px;    /* Tamaño del scroll en horizontal */
+  width: 12px;     /* Tamaño del scroll en vertical */
+  height: 12px;    /* Tamaño del scroll en horizontal */
 }
 
 /* Ponemos un color de fondo y redondeamos las esquinas del thumb */
 *::-webkit-scrollbar-thumb {
-  background: #ccc;
-  border-radius: 4px;
+  background: var(--primary-color);
 }
 
 /* Cambiamos el fondo y agregamos una sombra cuando esté en hover */
 *::-webkit-scrollbar-thumb:hover {
-  background: #b3b3b3;
+  background: var(--secundary-color);
   box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 /* Cambiamos el fondo cuando esté en active */
 *::-webkit-scrollbar-thumb:active {
-  background-color: #999999;
+  background-color: var(--accent-color);
 }
 
 a {
@@ -62,6 +61,7 @@ li {
 
 section, main {
   padding: 60px 0;
+  overflow: hidden;
 }
 
 .wrapper {

@@ -1,3 +1,5 @@
+AOS.init();
+
 const $form = document.getElementById("contact-form-id")
 
 $form.addEventListener("submit", handleSubmit)
