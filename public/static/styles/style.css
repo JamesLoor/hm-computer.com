@@ -44,8 +44,7 @@
 
 .header-menu ul {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  justify-content: center;
+  grid-auto-flow: column;
   align-items: center;
 }
 
